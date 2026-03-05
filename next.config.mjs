@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         protocol:'https',
-        hostname: 'www.www.sliderrevolution.com'
+        hostname: "images.unsplash.com"
       }
     ]
   }
