@@ -1,25 +1,34 @@
-import React from 'react'
-import { Card, CardTitle } from './ui/card'
-import Image from 'next/image'
+import React from "react";
+import { Card, CardTitle } from "./ui/card";
+import Image from "next/image";
 
-const Moviecard = ({movie}) => {
-    const {title, epilogue, dateReleased, category, type, actors, trailer, rating, keywords, kind, image} = movie
+const Moviecard = ({ movie }) => {
+  const {
+    title,
+    epilogue,
+    dateReleased,
+    category,
+    type,
+    actors,
+    trailer,
+    rating,
+    keywords,
+    kind,
+    image,
+  } = movie;
   return (
-    <Card>
+    <section>
+      <div>
+        <Image src={image} alt="" fill />
+      </div>
 
-        <div>
-            <Image src={image} width="500" height="500" alt=""/>
-           
-        </div>
-        <CardTitle>{title}</CardTitle>
-        <p>
-            {category}
-        </p>
-        <p>
-            {dateReleased}
-        </p>
-    </Card>
-  )
-}
+      <div>
+        <h1>{title}</h1>
+        <h2>{dateReleased}</h2>
+        <h2>{category}</h2>
+      </div>
+    </section>
+  );
+};
 
-export default Moviecard
+export default Moviecard;

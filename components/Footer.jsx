@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-row justify-between">
           <div className="flex flex-row justify-between gap-2">
-            <Copyright /> <p>Aso Fashion. All rights reserved.</p>
+            <Copyright /> <p>Sinema. All rights reserved.</p>
           </div>
           <div className="flex flex-row justify-between gap-5">
             <p>Privacy Policy</p>

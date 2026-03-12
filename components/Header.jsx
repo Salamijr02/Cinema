@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className=' py-5 border-b bg-primary'>
       <div className='mx-auto max-w-5xl flex justify-between text-primary-foreground'>
-        <h2 className='text-2xl font-bold'>Cinema</h2>
+        <h2 className='text-2xl font-bold'>Sinema</h2>
         <nav className='flex gap-8'>
           <Link href={"/"}>Home</Link>
           <Link href={"movies"}>Movies</Link>
