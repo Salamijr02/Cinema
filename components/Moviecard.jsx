@@ -1,30 +1,29 @@
 import React from "react";
-import { Card, CardTitle } from "./ui/card";
 import Image from "next/image";
 
 const Moviecard = ({ movie }) => {
   const {
     title,
-    epilogue,
     dateReleased,
     category,
-    type,
-    actors,
-    trailer,
-    rating,
-    keywords,
-    kind,
     image,
   } = movie;
   return (
-    <section className="border-2 rounded-lg p-4 flex flex-col gap-4 max-w-[260px] group w-full">
-      <div className="relative h-[400px] w-full">
+    <section className="group relative w-full max-w-[260px] overflow-hidden rounded-xl bg-neutral-900 shadow-lg transition-transform duration-300 hover:scale-105">
+
+      <div className="relative h-70 w-full">
         <Image
-          className="object-cover"
-          src={image} alt="" fill />
+          src={image}
+          alt={title}
+          fill
+          className="object-cover transition duration-300 group-hover:scale-110"
+        />
+
+        <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
+
       </div>
 
-      <div className="absolute bottom-0 p-4 w-full">
+      <div className="absolute bottom-0 p-4 text-white w-full">
         <h2 className="text-lg font-semibold">
           {title}
         </h2>

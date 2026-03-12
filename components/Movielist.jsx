@@ -1,16 +1,20 @@
-import MovieCard from "./MovieCard"
-import movies from "../data/movies"
+import Moviecard from '@/components/Moviecard'
+import React from 'react'
+import movieCollection from "@/data"
 
-export default function MovieList() {
+const MoviesPage = () => {
   return (
-    <section className="movie-list">
-      <h2>Popular Movies</h2>
+    <div className="mx-auto max-w-5xl py-4">
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6'>
+        {movieCollection.map(movie => (
+          
+          <Moviecard key={movie.id} movie={movie}/>
+        ))
 
-      <div className="movies-grid">
-        {movies.map((movie) => (
-          <MovieCard key={movie.id} movie={movie} />
-        ))}
+        }
       </div>
-    </section>
+    </div>
   )
 }
+
+export default MoviesPage
