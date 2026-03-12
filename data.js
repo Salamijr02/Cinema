@@ -1,5 +1,6 @@
 const movieCollection = [
   {
+    id: 1,
     title: "Shadows of Neo-Tokyo",
     epilogue: "In a rain-soaked future, a detective hunts a ghost in the machine.",
     dateReleased: "2024-05-12",
@@ -13,6 +14,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1605806616949-1e87b487fc2f?q=80&w=1000"
   },
   {
+    id: 2,
     title: "The Last Summit",
     epilogue: "Two estranged brothers attempt to climb the world's most dangerous peak.",
     dateReleased: "2023-11-20",
@@ -26,6 +28,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1000"
   },
   {
+    id: 3,
     title: "Laughter in the Rain",
     epilogue: "A chance encounter at a bus stop leads to a decade of friendship and missed connections.",
     dateReleased: "2025-02-14",
@@ -39,6 +42,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1511317558624-0414033c39cc?q=80&w=1000"
   },
   {
+    id: 4,
     title: "The Coral Ghost",
     epilogue: "A deep-dive look into the vanishing reefs of the South Pacific.",
     dateReleased: "2024-08-01",
@@ -52,6 +56,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1000"
   },
   {
+    id: 5,
     title: "Velocity",
     epilogue: "An underground street racer is forced into a high-stakes heist.",
     dateReleased: "2024-03-10",
@@ -65,6 +70,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1000"
   },
   {
+    id: 6,
     title: "Kitchen Nightmares: Paris",
     epilogue: "A failing bistro in the heart of Paris gets a second chance.",
     dateReleased: "2023-09-15",
@@ -78,6 +84,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1000"
   },
   {
+    id: 7,
     title: "The Midnight Gallery",
     epilogue: "Paintings come to life after the museum doors lock at midnight.",
     dateReleased: "2025-10-31",
@@ -91,6 +98,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=1000"
   },
   {
+    id: 8,
     title: "Mars Colony One",
     epilogue: "The first humans on Mars face an unexpected technical catastrophe.",
     dateReleased: "2026-01-01",
@@ -104,6 +112,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=1000"
   },
   {
+    id: 9,
     title: "The Jazz Man",
     epilogue: "The life and times of a forgotten trumpet player in 1950s New Orleans.",
     dateReleased: "2023-12-25",
@@ -117,6 +126,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=1000"
   },
   {
+    id: 10,
     title: "Under the Neon Sun",
     epilogue: "A vibrant comedy about three friends traveling through Florida.",
     dateReleased: "2024-07-04",
@@ -130,6 +140,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=1000"
   },
   {
+    id: 11,
     title: "Concrete Jungle",
     epilogue: "An exploration of urban wildlife living in New York City.",
     dateReleased: "2024-04-22",
@@ -143,6 +154,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1000"
   },
   {
+    id: 12,
     title: "The Alchemist",
     epilogue: "A young boy discovers he can turn base metals into gold, but at a cost.",
     dateReleased: "2025-11-12",
@@ -156,6 +168,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000"
   },
   {
+    id: 13,
     title: "Silent Witness",
     epilogue: "A deaf woman witnesses a crime through her apartment window.",
     dateReleased: "2024-02-09",
@@ -169,6 +182,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1485872222694-8974a214993c?q=80&w=1000"
   },
   {
+    id: 14,
     title: "Retrograde",
     epilogue: "Time starts moving backward for one man on his 40th birthday.",
     dateReleased: "2025-06-20",
@@ -182,6 +196,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1501139083538-0139583c060f?q=80&w=1000"
   },
   {
+    id: 15,
     title: "The Great Heist",
     epilogue: "A group of retirees plans to rob the bank that lost their pensions.",
     dateReleased: "2023-10-10",
@@ -195,7 +210,8 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?q=80&w=1000"
   },
   {
-    title: "Ocean’s Breath",
+    id: 16,
+    title: "Ocean's Breath",
     epilogue: "Capturing the beauty of free-diving in the Mediterranean.",
     dateReleased: "2024-05-30",
     category: "Sports",
@@ -208,6 +224,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1518467166778-b88f373ffec7?q=80&w=1000"
   },
   {
+    id: 17,
     title: "Robot & Me",
     epilogue: "An AI companion helps a lonely senior navigate modern life.",
     dateReleased: "2025-01-15",
@@ -221,6 +238,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1000"
   },
   {
+    id: 18,
     title: "The Haunting of Hill House",
     epilogue: "A family confronts memories of their old home and the terrors within.",
     dateReleased: "2023-10-31",
@@ -234,6 +252,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1505635330303-31953027484d?q=80&w=1000"
   },
   {
+    id: 19,
     title: "Stellar Journey",
     epilogue: "The search for a new Earth begins in a distant star system.",
     dateReleased: "2026-07-20",
@@ -247,6 +266,7 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1000"
   },
   {
+    id: 20,
     title: "The Winter King",
     epilogue: "A historical epic about the rise of a young king in a frozen land.",
     dateReleased: "2024-12-01",
@@ -260,4 +280,5 @@ const movieCollection = [
     image: "https://images.unsplash.com/photo-1507187632231-5beb21a65d12?q=80&w=1000"
   }
 ];
+
 export default movieCollection;
