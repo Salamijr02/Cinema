@@ -74,7 +74,7 @@ const Header = () => {
       </header>
 
       {/* Spacer so content doesn't hide under fixed header */}
-      <div className="h-[73px]" />
+      <div className="h-[73px]"/> 
     </>
   )
 }

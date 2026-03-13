@@ -117,7 +117,7 @@ const Footer = () => {
           <div className="flex items-center gap-2 font-dm text-xs"
             style={{ color: 'rgba(242,234,216,0.35)' }}>
             <Copyright size={12} />
-            <span>2025 Sinimá. All rights reserved.</span>
+            <span>2026 Sinimá. All rights reserved.</span>
           </div>
 
           <div className="flex gap-6">
